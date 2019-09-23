@@ -9,12 +9,15 @@ final int play = 1;
 final int gameover = 2;
 String[]words = {"RED", "ORANGE", "YELLOW", "GREEN", "BLUE"};
 color[]colors = {red, orange, yellow, green, blue};
+int points;
 int colour;
 int text;
+boolean answer;
 void setup() {
   size(800, 600);
   mode = intro;
   textAlign(CENTER, CENTER);
+  
 }
 
 
